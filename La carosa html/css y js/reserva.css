@@ -1,0 +1,101 @@
+.navbar {
+    padding: none;
+}
+
+/* Ajusta el tamaño del logotipo */
+.logo {
+    width: 100px;
+    /* Ajusta el ancho del logotipo */
+    height: 36px;
+    /* Ajusta el alto del logotipo */
+}
+
+/* Ajusta la posición de los botones del navbar */
+.navbar-nav {
+    margin-left: auto;
+    /* Mueve los botones al lado derecho */
+}
+
+.header {
+    background-image: url('https://live.staticflickr.com/3181/2548837974_968e5424e0_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+header h1 {
+    padding-top: 50px;
+}
+
+.header {
+    padding-top: 50px;
+    /* Agrega un margen superior para separar del navbar */
+    text-align: center;
+    /* Centra horizontalmente el contenido */
+}
+
+.overlay {
+    margin: 0 auto;
+    /* Centra horizontalmente el contenido */
+    max-width: 800px;
+    /* Establece un ancho máximo para el contenido */
+    padding: 20px;
+    /* Agrega un padding para separar el contenido del borde */
+}
+
+.mesa {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    margin: 15px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.reserved {
+    background-color: red;
+    color: black;
+}
+
+.available {
+    background-color: green;
+    color: white;
+}
+
+#mesas-container {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+}
+
+.cevicheria-bg {
+    background-image: url('https://st3.depositphotos.com/1026550/36645/i/450/depositphotos_366459050-stock-photo-underwater-empty-swimming-pool-background.jpg');
+    /* Asegúrate de tener una imagen real aquí */
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation-details {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}

@@ -1,19 +1,17 @@
+/* Estilos generales */
 .navbar {
     padding: none;
 }
 
-/* Ajusta el tamaño del logotipo */
+/* Ajustar tamaño del logo */
 .logo {
-    width: 100px;
-    /* Ajusta el ancho del logotipo */
-    height: 36px;
-    /* Ajusta el alto del logotipo */
+    width: 100px; /* Ajustar ancho del logo */
+    height: 36px; /* Ajustar altura del logo */
 }
 
-/* Ajusta la posición de los botones del navbar */
+/* Ajustar posición de los botones de la barra de navegación */
 .navbar-nav {
-    margin-left: auto;
-    /* Mueve los botones al lado derecho */
+    margin-left: auto; /* Mover botones al lado derecho */
 }
 
 .header {
@@ -21,73 +19,51 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
-}
-
-.header {
-    padding-top: 50px;
-    /* Agrega un margen superior para separar del navbar */
-    text-align: center;
-    /* Centra horizontalmente el contenido */
+    padding-top: 50px; /* Añadir margen superior para separar de la barra de navegación */
+    text-align: center; /* Centrar contenido horizontalmente */
 }
 
 .overlay {
-    margin: 0 auto;
-    /* Centra horizontalmente el contenido */
-    max-width: 800px;
-    /* Establece un ancho máximo para el contenido */
-    padding: 20px;
-    /* Agrega un padding para separar el contenido del borde */
+    margin: 0 auto; /* Centrar contenido horizontalmente */
+    max-width: 800px; /* Establecer ancho máximo para el contenido */
+    padding: 20px; /* Añadir padding para separar contenido del borde */
 }
 
 .menu-box {
-    background-color: #fff;
-    /* color blanco */
-    padding: 20px;
-    /* espacio entre el texto y el borde */
-    border-radius: 10px;
-    /* borde redondeado */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    /* sombra para dar profundidad */
-    width: 50%;
-    /* ancho del box, ajusta según sea necesario */
-    margin: 0 auto;
-    /* centrar horizontalmente */
-    text-align: center;
-    /* centrar texto horizontalmente */
+    background-color: #fff; /* Color blanco */
+    padding: 20px; /* Espacio entre texto y borde */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra para agregar profundidad */
+    width: 50%; /* Ancho de la caja, ajustar según sea necesario */
+    margin: 0 auto; /* Centrar horizontalmente */
+    text-align: center; /* Centrar texto horizontalmente */
 }
 
-header h1 {
+.header h1 {
     padding-top: 100px;
 }
 
 #about {
     background-color: cornflowerblue;
-
 }
 
 .card-container {
-    width: 250px;
-    /* ancho del cuadro */
-    height: 300px;
-    /* alto del cuadro */
-    margin: 10px;
-    /* margen entre cuadros */
-}
-
-.card-container img {
-    width: 100%;
-    /* ancho de la imagen igual al ancho del cuadro */
-    height: 150px;
-    /* alto de la imagen */
-    object-fit: cover;
-    /* ajusta la imagen al tamaño del cuadro */
-    border-radius: 10px 10px 0 0;
-    /* redondea las esquinas superiores */
+    margin-bottom: 20px;
 }
 
 .card-body {
-    padding: 20px;
-    /* padding interior del cuadro */
+    text-align: center;
+}
+
+.img-card-container {
+    width: 100%;
+    height: 200px; /* Ajustar la altura de las imágenes según tus necesidades */
+    object-fit: cover;
+    border-radius: 10px 10px 0 0; /* Esquinas redondeadas en la parte superior */
+}
+
+.text-white {
+    color: white;
 }
 
 .col-lg-6 {
@@ -96,7 +72,7 @@ header h1 {
 
 .footer {
     background-color: skyblue;
-    color: #fff;
+    color: #FFF;
     padding: 20px 0;
     text-align: center;
 }
@@ -125,11 +101,6 @@ header h1 {
     margin-bottom: 5px;
 }
 
-.footer-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .footer-links {
     width: 25%;
     padding: 0 15px;
@@ -156,7 +127,7 @@ header h1 {
 
 .footer-links ul li a {
     color: #ffffff;
-    padding-left: 6px;
+    padding-left: 3px;
 }
 
 .img-container {
