@@ -51,7 +51,23 @@ header h1 {
 .col-lg-6 {
     height: 200px;
 }
+.img-container {
+    height: 700px;
+    overflow: hidden;
+}
 
+.img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-container {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
 .footer {
     background-color: skyblue;
     color: #fff;
@@ -117,20 +133,3 @@ header h1 {
     padding-left: 6px;
 }
 
-.img-container {
-    height: 700px;
-    overflow: hidden;
-}
-
-.img-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.text-container {
-    height: 700px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}

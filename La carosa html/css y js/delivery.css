@@ -1,0 +1,33 @@
+body {
+    background-image: url('https://previews.123rf.com/images/artistock/artistock1708/artistock170800018/83253993-patr%C3%B3n-sin-fisuras-con-una-escuela-de-peces-fondos-de-pantalla-con-siluetas-de-peces-peque%C3%B1os.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.navbar {
+    padding: none;
+}
+
+.logo {
+    width: 100px;
+    height: 36px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.header {
+    background-image: url('https://live.staticflickr.com/3181/2548837974_968e5424e0_b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+header h1 {
+    padding-top: 50px;
+}
+
+.header {
+    padding-top: 50px;
+    text-align: center;
+}
